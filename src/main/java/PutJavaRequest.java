@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParseForJavaRequest {
-    public ParseForJavaRequest(int fileName, int quantity) throws IOException {
+public class PutJavaRequest {
+    public PutJavaRequest(int fileName, int quantity) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\viktor.nenashev\\sku\\" + fileName + ".csv"));
         String line;
         List<String> lines = new ArrayList<String>();

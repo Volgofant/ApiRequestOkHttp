@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="0" name="TestMainClass" time="112.671" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.3+12-b304.10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Program Files (x86)\Jenkins\workspace\Shop"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\Shop"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.3+12-b304.10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\apache-maven-3.6.1/bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr/bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Windows\System32\WindowsPowerShell\v1.0\;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.1\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.timezone" value="GMT+03:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="PMR164$"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\viktor.nenashev\IdeaProjects\Shop\pom.xml test"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TestMainClass" name="registrationWrongMail" time="9.156"/>
+  <testcase classname="TestMainClass" name="registrationBigPassword" time="7.263"/>
+  <testcase classname="TestMainClass" name="registrationNullPassword" time="6.449"/>
+  <testcase classname="TestMainClass" name="registrationRepeatMail" time="8.503"/>
+  <testcase classname="TestMainClass" name="registrationSmallPassword" time="6.907"/>
+  <testcase classname="TestMainClass" name="registrationNullSurNameTest" time="6.702"/>
+  <testcase classname="TestMainClass" name="registrationNullNameTest" time="6.733"/>
+  <testcase classname="TestMainClass" name="registrationOkMale" time="10.225"/>
+  <testcase classname="TestMainClass" name="registrationNullMail" time="6.926"/>
+  <testcase classname="TestMainClass" name="registrationOkFemale" time="10.898"/>
+  <testcase classname="TestMainClass" name="logIngOnFacebook" time="13.968"/>
+  <testcase classname="TestMainClass" name="registrationNullAll" time="6.205"/>
+  <testcase classname="TestMainClass" name="registrationOnFacebook" time="12.736"/>
+</testsuite>
